@@ -10,7 +10,7 @@ class Ball{
     this.color = _color;
   }
 
-  function draw(){
+  function draw(Ball){
    fill(this.color);
    ellipse(this.x,this.y,50,50)
    this.x = this.x + this.vx
